@@ -1,4 +1,4 @@
-﻿namespace BAMCIS.TimeUnit
+﻿namespace BAMCIS.Util.Concurrent
 {
     /// <summary>
     /// Provides a method for implementing custom GetHashCode() overrides.

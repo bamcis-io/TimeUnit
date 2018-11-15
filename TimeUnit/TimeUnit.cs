@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace BAMCIS.TimeUnit
+namespace BAMCIS.Util.Concurrent
 {
     /// <summary>
     /// A TimeUnit represents time durations at a given unit of granularity

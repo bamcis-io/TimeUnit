@@ -5,7 +5,7 @@
 
     <IsPackable>false</IsPackable>
 
-    <RootNamespace>BAMCIS.TimeUnit.Tests</RootNamespace>
+    <RootNamespace>BAMCIS.Util.Concurrent.Tests</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

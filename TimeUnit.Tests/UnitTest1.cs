@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace BAMCIS.TimeUnit.Tests
+namespace BAMCIS.Util.Concurrent.Tests
 {
     public class UnitTest1
     {

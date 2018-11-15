@@ -8,6 +8,10 @@ A .NET Core implementation of the Java java.util.concurrent.TimeUnit class.
 
 ## Usage
 
+Import the package:
+
+    using BAMCIS.Util.Concurrent;
+
 A simple example:
 
     long Seconds = TimeUnit.SECONDS.Convert(10, TimeUnit.MINUTES);
@@ -23,6 +27,9 @@ You can also perform wait operations:
 This will cause the thread to sleep for 5 seconds.
 
 ## Revision History
+
+### 1.0.1
+Fixed namespace issue.
 
 ### 1.0.0
 Initial release of the library.
