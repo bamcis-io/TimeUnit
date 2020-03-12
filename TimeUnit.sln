@@ -1,17 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28306.52
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeUnit", "TimeUnit\TimeUnit.csproj", "{C096BF26-5136-4DFE-BFB3-1422D06F001C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeUnit", "TimeUnit\TimeUnit.csproj", "{C096BF26-5136-4DFE-BFB3-1422D06F001C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6FA3C8CE-47FF-4146-B805-F8226AB31FC6}"
 	ProjectSection(SolutionItems) = preProject
-		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeUnit.Tests", "TimeUnit.Tests\TimeUnit.Tests.csproj", "{8B22D78C-66D8-494E-A65D-C364F8331E6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeUnit.Tests", "TimeUnit.Tests\TimeUnit.Tests.csproj", "{8B22D78C-66D8-494E-A65D-C364F8331E6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

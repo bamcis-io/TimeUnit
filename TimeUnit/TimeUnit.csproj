@@ -4,14 +4,14 @@
     <TargetFrameworks>netstandard1.6;netstandard2.0;net45</TargetFrameworks>
     <NetStandardImplicitPackageVersion>1.6</NetStandardImplicitPackageVersion>
     <RootNamespace>BAMCIS.Util.Concurrent</RootNamespace>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Michael Haken</Authors>
     <Company>bamcis.io</Company>
     <Description>A .NET Core library that implements the Java TimeUnit from java.util.concurrent.</Description>
     <Copyright>bamcis.io</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/bamcis-io/TimeUnit/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/bamcis-io/TimeUnit</PackageProjectUrl>
     <RepositoryUrl>https://github.com/bamcis-io/TimeUnit</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
@@ -19,7 +19,11 @@
     <PackageId>TimeUnit</PackageId>
     <Product>TimeUnit</Product>
     <PackageTags>TimeUnit</PackageTags>
-    <PackageReleaseNotes>Fixed namespace problem.</PackageReleaseNotes>
+    <PackageReleaseNotes>Added strong name signing.</PackageReleaseNotes>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>timeunit.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.6'">

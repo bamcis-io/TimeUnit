@@ -28,6 +28,9 @@ This will cause the thread to sleep for 5 seconds.
 
 ## Revision History
 
+### 1.0.2
+Added strong name signing.
+
 ### 1.0.1
 Fixed namespace issue.
 
